@@ -5,4 +5,4 @@ learn-ECMAScript
 
 
 
-code snippet  ![](./code-snippet.md)
+[code snippet](./code-snippet.md)
