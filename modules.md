@@ -1,4 +1,8 @@
 ### 模块导入导出
+在Node.js项目中使用ES module规范导入模块，需要在package.json中增加配置项
+`"type": "module"`
+
+---
 `import { createReadStream } from 'node:fs' `
 是一种特殊的模块导入方式，用于从 Node.js 的内置模块中导入特定的函数或对象。这种导入方式是在 ECMAScript 模块语法中引入的。
 在 Node.js 中，内置的模块可以通过 node: 前缀进行导入，后面跟着模块的名称，例如 node:fs。这种导入方式允许您直接从 Node.js 的内置模块中导入所需的函数或对象，而无需先通过 require 或 import 语句加载整个模块。
