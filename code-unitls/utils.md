@@ -1,4 +1,6 @@
-### 生成时间戳
+## 常用工具类utils
+
+#### 生成时间戳
 ```js
 // 生成DDL时间戳函数
 function getFormattedDateTime() {

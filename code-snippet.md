@@ -2,8 +2,7 @@
 ## JavaScript snippet
 
 
-#### 常用utils
-[常用utils](./code-snippet/utils.md)
+
 
 #### 文件操作
 [文件操作](./code-snippet/file-manage.md)
