@@ -1,8 +1,7 @@
 
 ## JavaScript snippet
 
-
-
+#### 首页 [index](./README.md)
 
 #### 文件操作
 [文件操作](./code-snippet/file-manage.md)
