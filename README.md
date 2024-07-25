@@ -111,6 +111,7 @@ document.getElementById('myButton').addEventListener('click', () => {
    );
 ```
 
+## 知识点
 
 ### 赋值 assignment
 - 对象的计算属性名，将计算结果当作对象的属性名称。将计算结果放到 **[]** 中求值。
@@ -121,7 +122,7 @@ let i = 2
 //对象的属性支持计算
 a[0+i]='cde' // a = {'2':cde}
 
-// 对象的字面量也支持计算
+// 对象的字面量属性也支持计算
 a={
     [i+2]:i
 }
