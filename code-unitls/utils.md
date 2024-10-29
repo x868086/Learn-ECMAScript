@@ -17,3 +17,20 @@ function getFormattedDateTime() {
     return formattedDateTime;
 }
 ```
+
+#### 遍历对象键值对，处理对象
+```js
+function processValues(obj, processor) {
+    const result = {};
+    for (const key in obj) {
+      if (obj.hasOwnProperty(key)) {
+        result[key] = processor(obj[key]);
+      }
+    }
+    return result;
+  }
+  
+// 示例处理器函数processor：将每个值乘以2
+const processedObj = processValues(obj, value => value * 2);
+
+```
